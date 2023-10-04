@@ -3,20 +3,25 @@
     position: sticky;
     top: 0;
     list-style-type: none;
+    text-align: center;
     margin:5px;
     padding:5px;
-    background-color:aqua;
+    background-color:transparent;
+    font-size: x-large;
     
 }
 .nav li{
     display: inline;
+    padding: 2%;
     margin-right: 5px;
     
-}
-.float{
-    float: right;
 }
 .nav li a{
     text-decoration: none;
 }
-
+.header{
+margin-top: 5%;
+}
+.header span{
+    color: red;
+}

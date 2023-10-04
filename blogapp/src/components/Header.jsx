@@ -2,7 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <center><h1>React-Blog-App</h1></center>
+    <div className='header'>
+    <center><h1><span>R</span>eact-<span>B</span>log-<span>A</span>pp</h1></center>
+    </div>
   )
 }
 
